@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+
+#bothrows {
+	display: block;
+}
+
+#row1 {
+	display: block;
+	
+}
+
+#row2 {
+	display: block;
+	
+}
+
+
+	img:hover {
+	width: 95%;
+	height: 95%;
+	animation-name: fadeIn;
+	animation-duration: 5s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	text-align: center;
+	margin-left: 2.5%;
+	margin-top: 1.5%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+
+@keyframes fadeIn {
+
+	0% { opacity: 0 }
+	100% { opacity: 1 }
+
+}
+  
+}
+
+html {
+	background: url("Images/recipesbg.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+}
+
+/*#recipesbg {
+	background-image: url("Images/recipesbg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}*/
+
+img {
+	height: 15%;
+	width: 15%;
+	align-content: center;
+	
+}
+
+#one {
+
+}
+
+#eight {
+
+}
+
+#row1 {
+	display: inline-block;
+	
+}
+
+#row2 {
+	display: inline-block;
+	
+}
+
+#bothrows {
+	margin-top: 50px;
+	margin-left: 10%;
+}
+
+img:hover {
+	width: 95%;
+	height: 95%;
+	animation-name: fadeIn;
+	animation-duration: 5s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	text-align: center;
+	margin-left: 2.5%;
+	margin-top: 1.5%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+
+@keyframes fadeIn {
+
+	0% { opacity: 0 }
+	100% { opacity: 1 }
+
+}
+
+
+
+p {
+	text-align: center;
+	font-family: 'Lobster';
+	font-size: 45px;
+	margin-top: 15%;
+	margin-right: 9%;
+}
